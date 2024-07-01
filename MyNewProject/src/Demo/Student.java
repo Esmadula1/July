@@ -24,6 +24,15 @@ public class Student {
 			System.out.println("Student grade = "+grade);
 			System.out.println("Student number = "+number);
 			System.out.println("Student Idno = "+idno);
+			
+			if(grade == 'D' || grade == 'E') {
+				System.out.println("Result:Fail");
+			}else {
+				System.out.println("Result:Pass");
+			}
+			if(idno >= 106) {
+				System.out.println("Ivalid ID number "+idno);
+			}
 		}
 
 }
